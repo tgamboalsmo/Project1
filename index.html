@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Author: Timothy Gamboa -->
+<!-- Project: Project 1     -->
+<!-- Date: March 2015       -->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<title>Udacity Nanodegree: Project Portfolio</title>
+	<script type="text/javascript" src="bootstrap/js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class="container">
+		<!-- Page header -->
+		<div class="row">
+			<!-- Udacity logo -->
+			<div class="col-sm-6 col-md-6" id="ulogo-header">
+				<a href="http://www.udacity.com">
+					<img class="img-logo" alt="Udacity Logo"
+					src="images/udacity-logo.jpg">
+				</a>
+			</div>
+			<!-- Name and title -->
+			<div class="col-sm-6 col-md-6 text-right text-uppercase">
+				<h1 class="title-large">tim gamboa</h1>
+				<h3 class="title-small">front-end web developer</h3>
+			</div>		
+		</div>
+	     
+		<!-- Horizontal line -->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="horizontal-line"></div>
+			</div>
+		</div>
+	    
+	    <!-- Large image -->
+		<div class="row" id="img-lrg-row">
+			<div class="col-md-12">
+				<img class="img-responsive border-radius-large img-body-border" alt="Main Image" src="images/mainpic2.jpg">
+			</div>
+		</div>
+		
+		<!-- Section title for projects -->
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="section-title">Featured Work</h2>
+			</div>
+		</div>
+		
+		<!-- Projects section 1-6 -->	
+		<div class="row text-center">
+			<div class="col-xs-6 col-md-4 row-spacer">
+				<img class="img-responsive center-block border-radius-medium img-body-border"  src="images/stock1.jpg"
+					 alt="Project 1 Image" data-toggle="modal" data-target="#project1">				
+				<a href="https://github.com/"><h3 class="project-titles">Project 1</h3></a>
+			</div>
+			<div class="col-xs-6 col-md-4 row-spacer">
+				<img class="img-responsive center-block border-radius-medium img-body-border" src="images/stock2.jpg"
+				     alt="Project 2 Image" data-toggle="modal" data-target="#project2">
+				<a href="https://github.com/"><h3 class="project-titles">Project 2</h3></a>
+			</div>
+			<div class="col-xs-6 col-md-4 row-spacer">
+				<img class="img-responsive center-block border-radius-medium img-body-border" src="images/stock3.jpg"
+				     alt="Project 3 Image" data-toggle="modal" data-target="#project3">
+				<a href="https://github.com/"><h3 class="project-titles">Project 3</h3></a>
+			</div>		
+			<div class="col-xs-6 col-md-4 row-spacer">
+				<img class="img-responsive center-block border-radius-medium img-body-border"  src="images/stock4.jpg"
+					 alt="Project 4 Image" data-toggle="modal" data-target="#project4">
+				<a href="https://github.com/"><h3 class="project-titles">Project 4</h3></a>
+			</div>
+			<div class="col-xs-6 col-md-4 row-spacer">
+				<img class="img-responsive center-block border-radius-medium img-body-border" src="images/stock5.jpg"
+				     alt="Project 5 Image" data-toggle="modal" data-target="#project5">
+				<a href="https://github.com/"><h3 class="project-titles">Project 5</h3></a>
+			</div>
+			<div class="col-xs-6 col-md-4 row-spacer">
+				<img class="img-responsive center-block border-radius-medium img-body-border" src="images/stock6.jpg"
+				     alt="Project 6 Image" data-toggle="modal" data-target="#project6">
+				<a href="https://github.com/"><h3 class="project-titles">Project 6</h3></a>
+			</div>		
+		</div>
+	</div>
+	
+	<!-- Modals for projects 1-6 -->
+	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  		<div class="modal-dialog">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h4 class="modal-title" id="myModalLabel">Project P1: Build a Portfolio Site</h4>
+      			</div>
+      			<div class="modal-body">
+        			<img class="img-responsive" alt="Project 1 Image" src="images/stock1.jpg">
+        		    <p class="modal-summary-style">The Udacity student was provided with a design 
+        		    mockup as a PDF-file and was expected to replicate that design in HTML and CSS. 
+        		    The student was to develop a responsive website that would display images, 
+        		    descriptions and links to each of the portfolio projects the student completed 
+        		    throughout the course of the Front-End Web Developer Nanodegree.</p>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  		<div class="modal-dialog">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h4 class="modal-title" id="myModalLabel">Project P2: Interactive Resume</h4>
+      			</div>
+      			<div class="modal-body">
+        			<img class="img-responsive" alt="Project 2 Image" src="images/stock2.jpg">
+        				<p class="modal-summary-style">In this project, the Udacity student demonstrated 
+        				their mastery of the language's syntax through a series of challenges. Each 
+        				multipart problem mimics a real-life challenge that front-end developers face. 
+        				The student was required to write clean code and to apply their knowledge of variables, 
+        				objects, JSON, functions and control flow to successfully solve the challenges.</p>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  		<div class="modal-dialog">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h4 class="modal-title" id="myModalLabel">Project P3: Classic Arcade Game Clone</h4>
+      			</div>
+      			<div class="modal-body">
+        			<img class="img-responsive" alt="Project 3 Image" src="images/stock3.jpg">
+        				<p class="modal-summary-style">In this project, the student was provided with visual 
+        				assets and a game loop engine; using these tools the student added a number of entities to the game 
+        				including the player characters and enemies to recreate the classic arcade game Frogger.</p>	
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+	</div>
+		<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  		<div class="modal-dialog">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h4 class="modal-title" id="myModalLabel">Project P4: Website Optimization</h4>
+      			</div>
+      			<div class="modal-body">
+        			<img class="img-responsive" alt="Project 4 Image" src="images/stock4.jpg">
+        				<p class="modal-summary-style">The student optimized a provided website with a number of 
+        				optimization- and performance-related issues so that it achieves a target PageSpeed score 
+        				and runs at 60 frames per second.</p>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+	</div>
+		<div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  		<div class="modal-dialog">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h4 class="modal-title" id="myModalLabel">Project P5: Neighborhood Map Project</h4>
+      			</div>
+      			<div class="modal-body">
+        			<img class="img-responsive" alt="Project 5 Image" src="images/stock5.jpg">
+        				<p class="modal-summary-style">In this project, the student developed a single-page application 
+        				featuring a map of their neighborhood or a neighborhood the would like to visit. They added additional 
+        				functionality to this application, including: map markers to identify popular locations or places 
+        				they'd like to visit, a search function to easily discover these locations, and a listview to support 
+        				simple browsing of all locations. The student then researched and implemented third-party APIs that 
+        				provide additional information about each of these locations (such as StreetView images, Wikipedia 
+        				articles, Yelp reviews, etc).</p>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+	</div>
+		<div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  		<div class="modal-dialog">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h4 class="modal-title" id="myModalLabel">P6: Feed Reader Testing</h4>
+      			</div>
+      			<div class="modal-body">
+        			<img class="img-responsive" alt="Project 6 Image" src="images/stock6.jpg">
+        				<p class="modal-summary-style">In this project, the student learned about testing with Javascript. 
+        				Testing is an important part of the development process and many organizations practice a standard 
+        				known as "test-driven development" or TDD. This is when developers write tests first, before they 
+        				ever start developing their application.</p>
+
+						<p class="modal-summary-style">Whether you work in an organization that writes tests extensively to 
+						inform product development or one that uses tests to encourage iteration, testing has become an essential 
+						skill in modern web development!</p>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+</body>
+<!-- Stock images courtesy of http://lorempixel.com/ -->
+<!-- Background image courtesy of http://subtlepatterns.com/ -->
+</html>

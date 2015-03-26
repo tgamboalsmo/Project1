@@ -1,0 +1,109 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+	background-image: url(../images/project1-bckgrnd.png)
+}
+
+.horizontal-line {
+	height: 3px; 
+	width: 100%; 
+	border: 1px #BCBBBB;
+	background-color: #BCBBBB;
+	margin-top: 12px;
+	margin-bottom: 25px;
+}
+
+.project-titles {
+	display: inline-block;
+	margin-top: 12px;
+}
+
+.section-title {
+	margin-left: 10px;
+}
+
+.row-spacer {
+	margin-bottom: 25px;
+}
+
+.title-large {
+	font-size: 55px;
+}
+
+.title-small {
+	font-size: 20px;
+}
+
+.img-logo {	
+	margin-top: 15px;
+	margin-right: 0px;
+	border-style: solid;
+	border-radius: 5%;
+	border-width: 3px;
+	border-color: #BCBBBB;
+}
+
+.img-body-border {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #BCBBBB;
+}
+
+.border-radius-large {
+  border-radius: 25px;
+}
+
+.border-radius-medium {
+  border-radius: 10px;
+}
+
+.modal-summary-style {
+	font-size: 15px;
+	margin-top: 5px;
+}
+
+#ulogo-header {
+	text-align: left;
+}
+
+/****** 480 break point adjustments ******/
+@media screen and (max-width: 480px) {
+	.col-xs-6 {
+		width: 100%;	
+	}
+	#img-lrg-row {
+		display: none;
+	}
+}
+
+/****** 768 break point adjustments ******/
+@media screen and (max-width: 767px) {
+	.section-title {
+		margin-left: 0px;
+		text-align: center;
+	}
+	.title-small, .title-large {
+		text-align: center;
+	}
+	#ulogo-header {
+		text-align: center;
+	}
+}	
+
+/****** 991 break point adjustments ******/
+@media screen and (max-width: 991px) {
+	.title-large {
+		font-size: 40px;
+	}
+	.title-small {
+		font-size: 15px;
+	}
+	.section-title {
+		font-size: 25px;
+	}
+	.project-titles {
+		font-size: 20px;
+}
+
+
