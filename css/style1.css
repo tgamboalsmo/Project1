@@ -8,7 +8,6 @@ body {
 .horizontal-line {
 	height: 3px; 
 	width: 100%; 
-	border: 1px #BCBBBB;
 	background-color: #BCBBBB;
 	margin-top: 12px;
 	margin-bottom: 25px;
@@ -104,6 +103,7 @@ body {
 	}
 	.project-titles {
 		font-size: 20px;
+	}
 }
 
 
